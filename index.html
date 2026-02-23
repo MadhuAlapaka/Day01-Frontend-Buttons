@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Button</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #5dbdc9;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+
+    /*  HEADINGS */
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .sub-text {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    h2 {
+        margin: 40px 0 20px;
+    }
+
+    /*  COMMON BUTTON  */
+    button {
+        padding: 12px 26px;
+        margin: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+    }
+
+    /* BASIC BUTTON STYLES  */
+    .primary { background: #1976d2; color: white; }
+    .primary:hover { background: #0d47a1; }
+
+    .secondary { background: #757575; color: white; }
+    .secondary:hover { background: #424242; }
+
+    .success { background: #43a047; color: white; }
+    .success:hover { background: #2e7d32; }
+
+    .danger { background: #d32f2f; color: white; }
+    .danger:hover { background: #b71c1c; }
+
+    /*  BUTTON GROUP  */
+    .group-btn {
+        background: #4caf50;
+        color: white;
+    }
+
+    .group-btn:hover {
+        background: #2e7d32;
+        transform: scale(1.09);
+    }
+
+    /*  MODERN BUTTON STYLES  */
+    .outline {
+        background: transparent;
+        color: #1976d2;
+        border: 2px solid #1976d2;
+    }
+
+    .outline:hover {
+        background: #1976d2;
+        color: white;
+    }
+
+    .gradient {
+        background: linear-gradient(45deg, #ff7043, #ffab91);
+        color: white;
+    }
+
+    .gradient:hover {
+        transform: scale(1.08);
+    }
+
+    .glass {
+        background: rgba(255,255,255,0.4);
+        backdrop-filter: blur(10px);
+        color: black;
+    }
+
+    .glass:hover {
+        color: #1976d2;
+    }
+
+    .shadow {
+        background: white;
+        color: black;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    }
+
+    .shadow:hover {
+        transform: scale(1.08);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.4);
+    }
+
+    .rounded {
+        background: #6a1b9a;
+        color: white;
+        border-radius: 25px;
+    }
+
+    .rounded:hover {
+        background: #4a148c;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>CSS-Button</h1><br><br>
+<p class="sub-text"><Strong>Hover over the button below to see the CSS effect:</Strong></p>
+<br>
+<h2>Basic Button Styles</h2>
+<button class="primary">Primary</button>
+<button class="secondary">Secondary</button>
+<button class="success">Success</button>
+<button class="danger">Danger</button>
+
+<h2>Button Group</h2>
+<button class="group-btn">Left</button>
+<button class="group-btn">Middle</button>
+<button class="group-btn">Right</button>
+
+<h2>Modern Button Styles</h2>
+<button class="outline">Outline</button>
+<button class="gradient">Gradient</button>
+<button class="glass">Glass</button>
+<button class="shadow">Shadow</button>
+<button class="rounded">Rounded</button>
+
+</body>
+</html>
